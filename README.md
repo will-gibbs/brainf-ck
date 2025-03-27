@@ -9,7 +9,7 @@ This program is an interpreter for the brainf*ck esoteric programming language, 
   The brainf*ck language uses a list of data cells, a data pointer, and an instruction pointer. Each cell contains one byte.
   The instruction pointer advances one instruction at a time and executes that command.
   There are only 8 commands, which are as follows:
-    ['<'] - Move the data pointer one cell to the left.
+    <p>['<'] - Move the data pointer one cell to the left.</p>
     ['>'] - Move the data pointer one cell to the right.
     ['+'] - Increment the value in the data cell at the data pointer's current location.
     ['-'] - Decrement the value in the data cell at the data pointer's current location.
