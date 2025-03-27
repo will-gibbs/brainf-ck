@@ -4,7 +4,7 @@
 /* January 4, 2025                                                    */
 /*                                                                    */
 /* This program interprets code writen in the brainf*ck language,     */
-/* as dictated by the commonly accepted rules of the language.        */
+/* as dictated by the commonly-accepted rules of the language.        */
 /*                                                                    */
 /**********************************************************************/
 
