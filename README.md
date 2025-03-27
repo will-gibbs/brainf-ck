@@ -21,5 +21,5 @@ This program is an interpreter for the brainf*ck esoteric programming language, 
       <br />
       When the instruction pointer encounters a closing bracket (`]`), if the value of the data cell at the data pointer's current location > 0, the instruction pointer jumps to the first instruction after it's matching opening bracket (`[`). Else, it procedes to the next instruction.</p>
       
-# Code and Design Details:
+# Code and design details:
   The program uses two linked lists: one traditional for the command list, and one doubly-linked for the data cells.
