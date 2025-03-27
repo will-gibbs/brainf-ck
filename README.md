@@ -15,10 +15,11 @@ This program is an interpreter for the brainf*ck esoteric programming language, 
     <p>`-` - Decrement the value in the data cell at the data pointer's current location.</p>
     <p>`.` - Print out the ASCII character representation of the value in the data cell at the data pointer's current location.</p>
     <p>`,` - Receive a single character and store it into the data cell at the data pointer's current location.</p>
-    <p>`\[` - Begin loop.</p>
-    <p>`\]` - End loop.</p>
+    <p>`[` - Begin loop.</p>
+    <p>`]` - End loop.</p>
       <p>Each opening bracket (`[`) must have a matching closing bracket (`]`), and vice-versa. Loops may be nested.
-      When the instruction pointer encounters a closing bracket (`]`), if the value of the data cell at the data pointer's current location >= 0, the instruction pointer jumps to the first instruction after it's matching opening bracket (`[`). Else, it procedes to the next instruction.</p>
+      <br />
+      When the instruction pointer encounters a closing bracket (`]`), if the value of the data cell at the data pointer's current location > 0, the instruction pointer jumps to the first instruction after it's matching opening bracket (`[`). Else, it procedes to the next instruction.</p>
       
 # Code and Design Details:
   The program uses two linked lists: one traditional for the command list, and one doubly-linked for the data cells.
